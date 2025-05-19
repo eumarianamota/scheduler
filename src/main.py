@@ -1,5 +1,6 @@
 from scheduler import Scheduler
 
-teste = Scheduler()
-teste.receiveProcesses()
-print(teste.calculateWaitingTime())
+simulador = Scheduler()
+simulador.receiveProcesses()
+simulador.calculateWTTA()
+simulador.showWTTA()
